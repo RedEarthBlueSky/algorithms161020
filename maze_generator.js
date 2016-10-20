@@ -2,9 +2,9 @@
 
 function createMaze (rows,columns) {
   // Array M contains the maze, each cell a possible position.
-  // The first four elements shows if the cell has wall in each direction
-  // (left, up, right, bottom). The fifth element is to flag if the cell
-  //  has been visited
+  // The first four elements shows if the cell has wall (0) or not (1) in
+  // each direction (left, up, right, bottom). The fifth element is to flag
+  // if the cell has been visited (1)
 
   var M = emptyArray(rows,columns);
   // Set starting row and column

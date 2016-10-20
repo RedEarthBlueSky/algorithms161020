@@ -12,7 +12,7 @@ M = np.zeros((num_rows,num_cols,5), dtype=np.uint8)
 # The array M is going to hold the array information for each cell.
 # The first four coordinates tell if walls exist on those sides
 # and the fifth indicates if the cell has been visited in the search.
-# M(LEFT, UP, RIGHT, DOWN, CHECK_IF_VISITED)
+# M(LEFT, UP, RIGHT, DOWN, CHECK_IF_VISITED) 1 no wall - 1 visited
 image = np.zeros((num_rows*10,num_cols*10), dtype=np.uint8)
 # The array image is going to be the output image to display
 
